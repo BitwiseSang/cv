@@ -1,0 +1,72 @@
+/* *****************TAG SELECTORS***************** */
+
+body{
+    margin: 0;
+    background-color: #F5EFE7;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+h1{
+    color:#213555;
+}
+h2{
+    /* background-color: #ccc; */
+    color:#116A7B;
+}
+
+/* *****************CLASS SELECTORS****************** */
+.container{
+    padding:20 0 0 20;
+    position: relative;
+}
+.main-div {
+    display: flex;
+}
+
+.Left-container{        /*left container*/
+    overflow:auto;
+    background-color: #F5EFE7;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+
+}
+.profile-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.left-divs{
+    margin-top: 45px;
+}
+
+.left-container-titles{
+    /* background-color: #ccc; */
+    color: #4F709C;
+    padding: 0px;
+}
+
+.right-container{       /*right container*/
+    background-color: #D8C4B6;
+    width: 100%;
+    padding: 20px;
+    overflow:auto;
+}
+
+.cv-heading {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.about-me{
+    /*background-color: #F5EFE7;*/
+    display:block;
+}
+
+.projs{
+    color: #213555;
+    text-decoration: underline;
+    text-align: center;
+}
